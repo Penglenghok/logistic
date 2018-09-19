@@ -1,0 +1,124 @@
+
+body{
+	font-family: "Arial";
+}
+
+
+
+:root {
+    --maincolor:#CF9A2C;
+    --main-txt-color: blue;    
+    --main-padding: 15px;    
+}
+
+.nav li{
+display: inline-block;
+
+}
+
+.nav li a{
+	font-size: 16px;
+	font-weight: bold;
+	color:var(--maincolor);
+
+	padding-top:38px;
+	padding-bottom: 38px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.nav li a:hover{
+	background-color: var(--maincolor);
+	color: white;
+}
+.center-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.gradient{
+		background: linear-gradient(to right, rgba(207,154,44,0.7), rgba(0,0,0,0.7));
+		position: absolute;
+		top: 0;
+		left: 0;
+		width:100%;
+		height:100%;
+	
+}
+.subgradient1{
+		background: linear-gradient(to right, rgba(207,154,44,0.7), rgba(0,0,0,0.5));
+		position: absolute;
+		top: 0;
+		left:15;
+		width:95%;
+		height:100%;
+	
+}
+.subgradient2{
+		background: linear-gradient(to right, rgba(207,154,44,0.7), rgba(0,0,0,0.5));
+		position: absolute;
+		top: 0;
+		left:15;
+		width:90%;
+		height:100%;
+	
+}
+
+.center{
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+.text-banner{
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    }
+    .carousel-control-next:hover span{
+    	opacity: 1;
+    }
+
+
+    .title{
+    	font-size: 35px;
+    	font-weight: bold;
+    	text-align: center;
+    	padding-bottom: 30px;
+    	color: var(--maincolor);
+    }
+
+    .standard-padding{
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+    .text{
+    	font-size: 14px;
+    	line-height: 25px;
+    	color: black;
+    	text-align: center;
+    }
+
+    .service-text{
+    	font-size: 16px;
+    	font-weight: bold;
+    	color: white;
+    	position: absolute;
+    	bottom: 15px;
+    	left: 30px;
+    }
+   .footer-title{
+   	font-size: 18px;
+   color: var(--maincolor);
+   font-weight: bold;
+   }
