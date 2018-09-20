@@ -54,6 +54,7 @@ display: inline-block;
 		left:15;
 		width:95%;
 		height:100%;
+    z-index: 10;
 	
 }
 .subgradient2{
@@ -63,7 +64,7 @@ display: inline-block;
 		left:15;
 		width:90%;
 		height:100%;
-	
+	z-index: 10;
 }
 
 .center{
@@ -116,9 +117,54 @@ display: inline-block;
     	position: absolute;
     	bottom: 15px;
     	left: 30px;
+      z-index: 20;
     }
    .footer-title{
    	font-size: 18px;
    color: var(--maincolor);
    font-weight: bold;
    }
+   .input{
+  width: 100%;
+  height: 40px;
+   outline: none;
+   box-shadow: none;
+   border:1px solid #e0e0e0;
+}
+
+.button-white{
+      width: 168px;
+    height: 40px;
+    background-color:var(--maincolor);
+    font-size: 14px;
+    color:white;
+    border:solid 1px white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.hover img{
+  transition: 0.5s;
+  overflow: hidden;
+}
+.hover:hover img{
+  transform: scale(1.2);
+}
+
+.question{
+    color:var(--maincolor);
+    padding: 18px;
+    width: 100%;
+   border-top:1px solid #e0e0e0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.answer{
+    padding: 0 18px;
+    background-color: white;
+}
