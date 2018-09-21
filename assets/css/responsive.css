@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*responsive with screet devices*/
+/*Large desktop*/
+@media (min-width:768px) and (max-width:1300px) {
+	
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:991px) {
+	
+	  .nav li{
+display: inline-block;
+}
+.nav li a{
+  font-size: 14px;
+  font-weight: bold;
+  color:var(--maincolor);
+
+  padding-top:38px;
+  padding-bottom: 38px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav li a:hover{
+  background-color: var(--maincolor);
+  color: white;
+}
+
+.imglogo{
+	width: 150px;
+	height: 100px;
+}
+
+.text-banner{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+.imgfooter{
+width: 200px;
+height: 100px;
+}
+
+  .title{
+    	font-size: 25px;
+    	font-weight: bold;
+    	text-align: center;
+    	padding-bottom: 30px;
+    	color: var(--maincolor);
+    }
+
+  .text{
+    	font-size: 14px;
+    	line-height: 25px;
+    	color: black;
+    	text-align: center;
+    }
+
+
+
+
+}
+/* landscape phone */
+@media (min-width:480px) and (max-width:767px) {
+   
+}
+
+
+
+/* Portrait phone */
+@media (max-width:479px) {
+  
+}
+
+
+

@@ -10,6 +10,9 @@ body{
     --main-txt-color: blue;    
     --main-padding: 15px;    
 }
+.imglogo{
+
+}
 
 .nav li{
 display: inline-block;
@@ -130,6 +133,10 @@ display: inline-block;
    outline: none;
    box-shadow: none;
    border:1px solid #e0e0e0;
+}
+.imgfooter{
+width: 300px;
+height: 100px;
 }
 
 .button-white{

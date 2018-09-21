@@ -44,6 +44,19 @@ $(document).ready(function(){
     });
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   function fullHeightScreen(){
     var amountHeaderH = '';
     var windowHight = $(window).height();
@@ -61,10 +74,6 @@ $(document).ready(function(){
       });
     });
   }
-
-
-
-
 
   clickShow();
   fullHeightScreen();
