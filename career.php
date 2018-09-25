@@ -3,7 +3,7 @@ include_once('header.php')
 
 ?>
 <div class="container"><div class="title" style="margin-top: 50px;">
-		/ JOIN WITH COOL PEOPLE
+		<span style="color: grey">/</span> JOIN WITH COOL PEOPLE
 	</div></div>
 <div class="container" style="padding-bottom:50px;border-bottom: 1px solid #e0e0e0;">
 	

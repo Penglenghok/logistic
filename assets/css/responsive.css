@@ -60,6 +60,113 @@ height: 100px;
     	color: black;
     	text-align: center;
     }
+.subgradient1{
+    background: linear-gradient(to right, rgba(207,154,44,0.7), rgba(0,0,0,0.5));
+    position: absolute;
+    top: 0;
+    left:15px;
+    width:92%;
+    height:100%;
+    z-index: 10;
+  
+}
+
+
+.subgradient2{
+    background: linear-gradient(to right, rgba(207,154,44,0.7), rgba(0,0,0,0.5));
+    position: absolute;
+    top: 0;
+    left:15px;
+    width:84%;
+    height:100%;
+  z-index: 10;
+}
+
+.service-text{
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      z-index: 20;
+    }
+    .service5{
+      height:20%;
+    }
+
+    .top30{
+      margin-top: 35px;
+    }
+    .about-text{
+  width:100%;
+  text-align: left;
+}
+ .about-text1{
+  width:100%;
+  text-align: left;
+}
+
+.margin-top-50{
+  margin-top: 15px;
+}
+
+/*for service page*/
+.margin-left-375{
+  margin-left: 0px;
+}
+.width-960{
+  width:100%;
+}
+
+.service-background{
+position: absolute;
+top: 0px;
+left: 0px;
+width:102%;
+height: 100%;
+background-color:#F9F9F9;
+z-index: -10;
+}
+
+.width-75{
+  width: 100%;
+  padding: 0 15px;
+}
+
+ .title{
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 30px;
+      color: var(--maincolor);
+    }
+.font-size-35{
+  font-size: 18px;
+}
+
+.line-height-45{
+  line-height: 35px;
+}
+.service-box{
+width: 375px;
+height: 300px;
+}
+
+.service-background-left{
+  position: absolute;
+  top: 0px;
+  left:-7px;
+  width:102%;
+  height: 100%;
+  background-color:#F9F9F9;
+  z-index: -10;
+  padding-left: 30px;
+}
+
+.ipad-title{
+  margin-left: 30px;
+}
 
 
 

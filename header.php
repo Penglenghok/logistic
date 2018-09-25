@@ -27,7 +27,7 @@
 <body>
   <div class="header">
     <!-- menu  -->
-    <div class="çontainer-fluid">
+    <div class="çontainer-fluid" style="background-color:white;position: fixed;top: 0px;z-index: 100;width:100%;">
       <div class="container" style="display:flex;justify-content: flex-end;height: 90px;padding:0px;">
         <div class="center-row imglogo" style="margin-right: auto;">
           <img src="assets/img/Cool-Freight&Logistic-logo.svg" style="width: 100%;height: 100%">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <!-- banner-slide -->
-    <div class="container-fluid" style="padding:0px;">
+    <div class="container-fluid" style="padding:0px;margin-top: 90px;">
       <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>

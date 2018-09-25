@@ -42,11 +42,11 @@
           QUICK LINKS
         </div>
         <div style="margin-top: 50px; font-weight: bold;font-size: 14px">
-          <div style="border-bottom:1px solid #e0e0e0;line-height: 12px;color:#CF9A2C">HOME</div>
-          <div style="border-bottom:1px solid #e0e0e0;line-height: 12px;padding-top: 15px;">ABOUT COOL</div>
-          <div style="border-bottom:1px solid #e0e0e0;line-height: 12px;padding-top: 15px;">OUR SERVICES</div>
-          <div style="border-bottom:1px solid #e0e0e0;line-height: 12px;padding-top: 15px;">CONTACT US</div>
-          <div style="border-bottom:1px solid #e0e0e0;line-height: 12px;padding-top: 15px;">CAREERS</div>
+          <div class="footer-link" style="padding-top: 0px;"><a class="goldhover" href="">HOME</a></div>
+          <div class="footer-link"><a class="goldhover" href="">ABOUT COOL</a></div>
+          <div class="footer-link"> <a class="goldhover" href="">OUR SERVICES</a> </div>
+          <div class="footer-link"><a class="goldhover" href="">CONTACT US</a></div>
+          <div class="footer-link"> <a class="goldhover" href="">CAREERS</a></div>
         </div>
       </div>
     </div>
@@ -54,8 +54,8 @@
 </div>
 <div class="container-fluid" style="background-color:#6D6E70;padding:0px;">
   <div class="container" style="display: flex;justify-content: flex-end;height: 60px">
-    <div class="center-row" style="margin-right: auto;color: white">© 2018. All rights reserved. <span style="font-weight: bold;">COOL Freight and Logistics</span></div>
-    <div class="center-row" style="color: white">Developed by: <a href="#" style="color: white;text-decoration: none;">TomnerbTECH</a></div>
+    <div class="center-row text" style="margin-right: auto;color: white">© 2018. All rights reserved. <span style="font-weight: bold;">COOL Freight and Logistics</span></div>
+    <div class="center-row text" style="color: white">Developed by: <a href="#" style="color: white;text-decoration: none;">TomnerbTECH</a></div>
   </div>
 </div>
 </div>

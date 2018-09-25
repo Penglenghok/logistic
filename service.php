@@ -1,33 +1,31 @@
 <?php
 include_once('header.php')
 ?>
-
-
-
 <!-- content -->
 
+
+
+<!-- service-1 -->
 <div class="container" style="padding:0px;">
   <div class="row">
-    <div class="col-sm-6" style="padding:0px;width: 960px;">
-      <div><img src="assets/img/Cool-Transpotation-Service-01.jpg" style="margin-left: -375px;">
-      <div class="gradient" style="margin-left: -375px;width: 960px;"></div></div>
-      
+    <div class="col-sm-6 " style="padding:0px;">
+      <div><img class="width-960 margin-left-375 service-box" src="assets/img/Cool-Transpotation-Service-01.jpg">
+      <div class="gradient margin-left-375 width-960"></div></div>
     </div>
-    <div class="col-sm-6 " style="padding-left:50px; line-height:45px;">
-
-      <div style="position: absolute;top: 0px;left: 0px;width:960px;height: 100%;background-color:#F9F9F9;z-index: -10"></div>
+    <div class="col-sm-6 line-height-45" style="padding-left:50px;">
+      <div class="service-background"></div>
        <div class="wow bounceInRight slow">
-     <div class="title" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;margin-top: 50px;">
-      <div style="margin-right: 10px">/</div>
+     <div class="title margin-top-50" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;">
+      <div style="margin-right: 10px;color: grey">/</div>
       <div>AIR AND SEA <br>
       FREIGHT FORWARDING</div>
     </div>
-    <div style="font-size: 35px;font-weight: bold;text-align: left;color: #6D6E70">
-      TO ENSURE SPEEDY <br>
-      DELIVERY, WE OFFER <br>
-      SHIPPING AND <br>
-      MOVING OF CARGO <br>
-      BY SEA AND AIR <br>
+    <div class="width-75 font-size-35" style="font-weight: bold;text-align: left;color: #6D6E70;">
+      TO ENSURE SPEEDY 
+      DELIVERY, WE OFFER 
+      SHIPPING AND 
+      MOVING OF CARGO
+      BY SEA AND AIR
       RUNTES.
     </div>
 </div>
@@ -35,83 +33,91 @@ include_once('header.php')
 </div>
 </div>
 
-<div class="container" style="height: 500px">
+
+
+<!-- service-2 -->
+<div class="container" style="padding:0px;">
   <div class="row" style="">
-    <div class="col-sm-6 wow bounceInLeft slow" style="line-height: 45px;margin-top: 50px;">
-      <div class="title" style="text-align: left;padding-bottom: 10px;">
-        <div>/ CONTAINER HAULAGE</div>
+    <div class="col-sm-6 wow bounceInLeft slow line-height-45">
+      <div class="title margin-top-50" style="text-align: left;padding-bottom: 10px;">
+        <div> <span style="color: grey;">/</span> CONTAINER HAULAGE</div>
       </div>
-      <div style="font-size: 35px;font-weight: bold;text-align: left;line-height: 50px;color: #6D6E70">
-        THE MOVEMENT OF <br>
-        CONTAINERS FROM <br>
-        THE LOCAL PORT TO <br>
-        THE WARE HOUSE OR <br>
-        SHIPPING AND VICE <br>
-        VERSA IS DONE WITH <br>
+      <div class="width-75 font-size-35" style="font-weight: bold;text-align: left;color: #6D6E70">
+        THE MOVEMENT OF 
+        CONTAINERS FROM 
+        THE LOCAL PORT TO 
+        THE WARE HOUSE OR 
+        SHIPPING AND VICE 
+        VERSA IS DONE WITH 
         CARE AT COOL.
       </div>
     </div>
     <div class="col-sm-6" style="padding: 0px;">
-      <img src="assets/img/Cool-Transpotation-Service-02.jpg" style="width: 100%;height:500px;">
+      <img class="service-box" src="assets/img/Cool-Transpotation-Service-02.jpg">
       <div class="gradient"></div>
     </div>
   </div>
 </div>
 
+
+
+
+<!-- service-3 -->
 <div class="container" style="padding:0px;">
   <div class="row">
-    <div class="col-sm-6" style="padding:0px;width: 960px;">
-      <div><img src="assets/img/Cool-Transpotation-Service-03.jpg" style="margin-left: -375px;">
-      <div class="gradient" style="margin-left: -375px;width: 960px;"></div></div>
-      
+    <div class="col-sm-6" style="padding:0px;">
+      <div><img class="width-960 margin-left-375 service-box" src="assets/img/Cool-Transpotation-Service-03.jpg">
+      <div class="gradient margin-left-375 width-960"></div></div>
     </div>
-    <div class="col-sm-6" style="padding-left:50px; line-height:45px;">
-
-      <div style="position: absolute;top: 0px;left: 0px;width:960px;height: 100%;background-color:#F9F9F9;z-index: -10"></div>
+    <div class="col-sm-6 line-height-45" style="padding-left:50px;">
+      <div class="service-background"></div>
       <div class="wow bounceInRight slow">
-     <div class="title" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;margin-top: 50px;">
-
-      <div style="margin-right: 10px">/</div>
+     <div class="title margin-top-50" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;">
+      <div style="margin-right: 10px;color: grey;">/</div>
       <div>CONTAINER LOADING <br>
 AND UNLOADING</div>
     </div>
-    <div style="font-size: 35px;font-weight: bold;text-align: left;color: #6D6E70;width: 600px;">
-     WE PROVIDE FOR A <br>
-FAST, RELIABLE WITH<br>
-TIME BOUND STUFFING<br>
-OR UN-STUFFING OF <br>
-GOODS FROM/TO <br>
+  <div class="width-75 font-size-35" style="font-weight: bold;text-align: left;color: #6D6E70;">
+     WE PROVIDE FOR A 
+FAST, RELIABLE WITH
+TIME BOUND STUFFING
+OR UN-STUFFING OF 
+GOODS FROM/TO 
 YOUR CONTAINERS.
     </div>
 </div>
-
   </div>
 </div>
 </div>
 
 
+
+
+
+
+<!-- service-4 -->
 <div class="container" style="padding:0px;">
   <div class="row">
-    <div class="col-sm-6" style="padding:0px;width: 960px; line-height: 45px;">
-    <div style="position: absolute;top: 0px;left: -375px;width:960px;height: 100%;background-color:#F9F9F9;z-index: -10"></div>
+    <div class="col-sm-6 line-height-45" style="padding:0px;width: 960px;">
+    <div class="service-background-left"></div>
 
-<div class="wow bounceInLeft slow">
-     <div class="title" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;margin-top: 50px;">
-      <div style="margin-right: 10px">/</div>
+<div class="wow bounceInLeft slow ipad-title">
+     <div class="title margin-top-50" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;">
+      <div style="margin-right: 10px;color: grey;">/</div>
       <div>WAREHOUSING AND <br>
 DISTRIBUTION</div>
     </div>
-    <div style="font-size: 35px;font-weight: bold;text-align: left;color: #6D6E70;width: 600px;">
-    WE PROVIDE STORAGE <br>
-SPACE FOR YOUR <br>
-GOODS AND SHIP IT TO <br> 
+    <div class="width-75 font-size-35"  style="font-weight: bold;text-align: left;color: #6D6E70;">
+    WE PROVIDE STORAGE 
+SPACE FOR YOUR 
+GOODS AND SHIP IT TO 
 RETAILERS
     </div>
 </div>
     </div>
     <div class="col-sm-6" style="padding:0px;">
-    <div><img src="assets/img/Cool-Transpotation-Service-04.jpg">
-      <div class="gradient" style="width: 960px;"></div></div>
+    <div><img class="service-box" src="assets/img/Cool-Transpotation-Service-04.jpg">
+      <div class="gradient width-960"></div></div>
   </div>
 </div>
 </div>
@@ -120,57 +126,60 @@ RETAILERS
 
 
 
-
-<div class="container" style="height: 500px">
+<!-- service-5 -->
+<div class="container" style="padding:0px;">
   <div class="row" style="">
-    <div class="col-sm-6" style="line-height: 45px;margin-top: 0px;padding: 0px;">
+    <div class="col-sm-6 " style="margin-top: 0px;padding: 0px;">
        <div class="gradient"></div>
-        <img src="assets/img/Cool-Transpotation-Service-06.jpg" style="width: 100%;height:500px;">
+        <img class="service-box" src="assets/img/Cool-Transpotation-Service-06.jpg">
     </div>
-    <div class="col-sm-6 wow bounceInRight slow" style="padding: 0px;padding-left: 50px;">
-         <div class="title" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;margin-top: 50px;">
+    <div class="col-sm-6 line-height-45" style="padding: 0px;padding-left: 50px;">
+      <div class="wow bounceInRight slow">
+         <div class="title margin-top-50" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;">
       <div style="margin-right: 10px">/</div>
       <div>PERSONAL EFFERCTS 
 REMOVAL SERVICE</div>
     </div>
-      <div style="font-size: 35px;font-weight: bold;text-align: left;line-height: 50px;color: #6D6E70;width: 600px;">
-        TO ENSURE SPEEDY <br>
-DELIVERY, WE OFFER <br>
-SHIPPING AND MOVING <br>
-OF CARGO BY SEA AND <br>
+      <div class="width-75 font-size-35" style="font-weight: bold;text-align: left;color: #6D6E70;">
+        TO ENSURE SPEEDY
+DELIVERY, WE OFFER 
+SHIPPING AND MOVING 
+OF CARGO BY SEA AND 
 AIR ROUTES.
       </div>
+      </div>
     </div>
+
+
   </div>
 </div>
 
 
 
-
+<!-- service-6 -->
 <div class="container" style="padding:0px;">
   <div class="row">
-    <div class="col-sm-6" style="padding:0px;width: 960px; line-height: 45px;">
-    <div style="position: absolute;top: 0px;left: -375px;width:960px;height: 100%;background-color:#F9F9F9;z-index: -10"></div>
-
-    <div class="wow bounceInLeft">
-     <div class="title" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;margin-top: 50px;">
+    <div class="col-sm-6 line-height-45" style="padding:0px;width: 960px;">
+    <div class="service-background-left"></div>
+    <div class="wow bounceInLeft ipad-title">
+     <div class="title margin-top-50" style="display: flex;justify-content: flex-start;text-align: left;padding-bottom: 10px;">
       <div style="margin-right: 10px">/</div>
       <div>CUSTOMER DECLARATIONS <br>
 AND CLEEARANCE</div>
     </div>
-    <div style="font-size: 35px;font-weight: bold;text-align: left;color: #6D6E70;width: 600px;">
-   WE TAKE CARE OF <br>
-CUSTOMERS <br>
-DECLEARATION FOR <br> 
-TRADE EXCHANGE <br>
-CLEARANCE <br>
+    <div class="width-75 font-size-35" style="font-weight: bold;text-align: left;color: #6D6E70;">
+   WE TAKE CARE OF 
+CUSTOMERS 
+DECLEARATION FOR 
+TRADE EXCHANGE 
+CLEARANCE 
 (DONE IN-HOUSE).
     </div>
   </div>
     </div>
     <div class="col-sm-6" style="padding:0px;">
-    <div><img src="assets/img/Cool-Transpotation-Service-05.jpg">
-      <div class="gradient" style="width: 960px;"></div></div>
+    <div><img class="service-box" src="assets/img/Cool-Transpotation-Service-05.jpg">
+      <div class="gradient width-960"></div></div>
   </div>
 </div>
 </div>
